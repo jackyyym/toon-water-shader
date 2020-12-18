@@ -15,6 +15,11 @@ public class ShaderManager : MonoBehaviour
         ToonWater = Water.material;
     }
 
+    void Update() {
+        if (Input.GetKeyDown("escape"))
+            Application.Quit();
+    }
+
     public void SetScrolling(bool b) {
         float _ScrollBool  = 0;
         if (b) _ScrollBool = 1;
