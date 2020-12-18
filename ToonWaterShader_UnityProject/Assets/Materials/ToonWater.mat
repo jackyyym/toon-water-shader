@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ToonWater
   m_Shader: {fileID: 4800000, guid: 211fbf6e2e0ca4744a3dadc56d719fb9, type: 3}
-  m_ShaderKeywords: _DISTORTBOOL_ON _NOISEBOOL_ON _SCROLLBOOL_ON
+  m_ShaderKeywords: _DISTORTBOOL_ON _NOISEBOOL_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -68,7 +68,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DistortBool: 1
-    - _DistortMagnitude: 0.035
+    - _DistortMagnitude: 0.053
     - _DstBlend: 0
     - _GlossMapScale: 1
     - _Glossiness: 0.5
@@ -76,11 +76,11 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _NoiseBool: 1
-    - _NoiseCutoffStart: 0.2
-    - _NoiseCutoffStop: 0.975
+    - _NoiseCutoffStart: 0.236
+    - _NoiseCutoffStop: 0.942
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _ScrollBool: 1
+    - _ScrollBool: 0
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
